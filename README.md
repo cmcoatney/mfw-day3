@@ -32,8 +32,6 @@ Children (Flex Items)
 
     align-self: overrides alignment set on parent
 
-
-
 ## Trying it out
 
 1. display: flex: Gets everything on one line
@@ -42,3 +40,5 @@ Children (Flex Items)
 4. flex-flow: shorthand for flex-direction and flex-wrap
 5. justify-content: Controls how items on main axis should be spaced
 6. align-items: cross-axis spacing
+
+Children 7. order: grouping and moving, higher order = further away 8. flex-basis, -grow, -shrink determine item size reacting to flow 9. flex shorthand for three properties in 8

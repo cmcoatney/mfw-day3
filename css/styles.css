@@ -21,7 +21,7 @@ ul {
   --flex-wrap: wrap;
 
   /* TODO: 4. shorthand*/
-  --flex-flow: row wrap;
+  flex-flow: row wrap;
 
   /* TODO: 5. flex-end, center, space-around, space-between, space-evenly */
   --justify-content: flex-end;
@@ -33,11 +33,29 @@ ul {
 }
 
 li {
-  --height: 10px;
-  --width: 100px;
+  /*TODO: NOTE: never use width property with flex items use flex-basis! */
+  --width: no no!;
+  --flex-basis: 20%;
+
   font-size: 12px;
   border: 3px solid #38618c;
   margin: 0.5em;
   padding: 0.5em;
   color: white;
+}
+
+.flex2 {
+  background-color: red;
+
+/* TODO: 7. with row wrap*/
+  --order: 2;
+
+  /* TODO: 8. flex-basis, flex-grow, flex-shrink*/
+
+  --flex-basis: 35%;
+  --flex-grow: 1;
+  --flex-shrink: 1;
+
+   /* TODO: 9. grow, shrink, basis*/
+  --flex: 2 1 25%;
 }
