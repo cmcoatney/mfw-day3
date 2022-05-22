@@ -1,0 +1,40 @@
+/* TODO: 1. Horizontally centering text */
+.title {
+  height: 3rem;
+
+  /* FIXME: */
+  --text-align: center;
+}
+
+/* TODO: 2.  Block level horizontal centering */
+.box {
+  height: 5rem;
+  width: 5rem;
+
+  /* FIXME: */
+  --margin: 0 auto;
+}
+
+/* TODO: 3.  Horizontal with flexbox*/
+/* TODO: 4.  Horizontal and vertical with grid*/
+.hero {
+  --width: 100vw;
+  height: 60vh;
+
+  /* FIXME: */
+  /* center with flexbox */
+  --display: flex;
+  --justify-content: center;
+  --align-items: center;
+
+  /* FIXME: */
+  /* center with grid */
+  --display: grid;
+  --place-items: center;
+}
+
+/* TODO: 5. Bootstrap class mx-auto*/
+.list {
+  width: 15rem;
+  padding: 20px;
+}
