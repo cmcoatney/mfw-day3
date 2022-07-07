@@ -35,6 +35,9 @@
 
 /* TODO: 5. Bootstrap class mx-auto*/
 .list {
+  /* FIXME:  Comment out absolute position*/
+  position: absolute;
   width: 15rem;
   padding: 20px;
+  left: 0px;
 }
